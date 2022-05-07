@@ -12,42 +12,44 @@ Precision score is a measure of how reliable a positive classification is, repre
 
 Recall, or Sensitivity, is a ratio of true positive outcomes to actually true outcomes. 
 
+In the case of credit risk analysis, Accuracy will represent a measure of how often the model makes correct predictions, Precision for high_risk will represent how often a predicted high risk candidate is actually high risk, and Recall for high_risk will represent how often an actual high risk candidate is labeled as high risk. With these definitions in mind, the following classification reports (containing precision and recall) and accuracy scores can be examined. 
+
 ### Classification Reports
 
-Naive Random Oversampling (RandomOverSampler model)
+#### Naive Random Oversampling (RandomOverSampler model)
 Balanced accuracy score: 0.6463970560994359
 Precision for high_risk: 0.01
 Recall for high_risk: 0.71
 ![Oversampling with RandomOverSampler](/Images/RandomOverSampler_classificationReport.PNG)
 
-SMOTE Oversampling
+#### SMOTE Oversampling
 Balanced accuracy score: 0.6586230769943224
-Precision for high_risk:
-Recall for high_risk:
+Precision for high_risk: 0.01
+Recall for high_risk: 0.63
 ![Oversampling with SMOTE](/Images/SMOTE_classificationReport.PNG)
 
-ClusterCentroids Undersampling
+#### ClusterCentroids Undersampling
 Balanced accuracy score: 0.5442369453268994
 Precision for high_risk: 0.01
 Recall for high_risk: 0.69
 ![Undersampling with ClusterCentroids](/Images/ClusterCentroids_classificationReport.PNG)
 
-SMOTEENN Combination Sampling
+#### SMOTEENN Combination Sampling
 Balanced accuracy score: 0.6664711051320287
-Precision for high_risk:
-Recall for high_risk:
+Precision for high_risk: 0.01
+Recall for high_risk: 0.73
 ![Combination Sampling with SMOTEENN](/Images/SMOTEENN_classificationReport.PNG)
 
-BalancedRandomForestClassifier Ensemble Learning
+#### BalancedRandomForestClassifier Ensemble Learning
 Balanced accuracy score: 0.8735251380412671
-Precision for high_risk:
-Recall for high_risk:
+Precision for high_risk: 0.03
+Recall for high_risk: 0.70
 ![Ensemble Learning with BalancedRandomForestClassifier](/Images/BalancedRandomForestClassifier_classificationReport.PNG)
 
-EasyEnsembleClassifier Ensemble Learning
+#### EasyEnsembleClassifier Ensemble Learning
 Balanced accuracy score: 0.9154459266085636
-Precision for high_risk:
-Recall for high_risk:
+Precision for high_risk: 0.05
+Recall for high_risk: 0.93
 ![Ensemble Learning with EasyEnsembleClassifier](/Images/EasyEnsembleClassifier_classificationReport.PNG)
 
 
