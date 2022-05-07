@@ -17,39 +17,39 @@ In the case of credit risk analysis, Accuracy will represent a measure of how of
 ### Classification Reports
 
 #### Naive Random Oversampling (RandomOverSampler model)
-Balanced accuracy score: 0.6463970560994359
-Precision for high_risk: 0.01
-Recall for high_risk: 0.71
+- Balanced accuracy score: 0.6463970560994359
+- Precision for high_risk: 0.01
+- Recall for high_risk: 0.71
 ![Oversampling with RandomOverSampler](/Images/RandomOverSampler_classificationReport.PNG)
 
 #### SMOTE Oversampling
-Balanced accuracy score: 0.6586230769943224
-Precision for high_risk: 0.01
-Recall for high_risk: 0.63
+- Balanced accuracy score: 0.6586230769943224
+- Precision for high_risk: 0.01
+- Recall for high_risk: 0.63
 ![Oversampling with SMOTE](/Images/SMOTE_classificationReport.PNG)
 
 #### ClusterCentroids Undersampling
-Balanced accuracy score: 0.5442369453268994
-Precision for high_risk: 0.01
-Recall for high_risk: 0.69
+- Balanced accuracy score: 0.5442369453268994
+- Precision for high_risk: 0.01
+- Recall for high_risk: 0.69
 ![Undersampling with ClusterCentroids](/Images/ClusterCentroids_classificationReport.PNG)
 
 #### SMOTEENN Combination Sampling
-Balanced accuracy score: 0.6664711051320287
-Precision for high_risk: 0.01
-Recall for high_risk: 0.73
+- Balanced accuracy score: 0.6664711051320287
+- Precision for high_risk: 0.01
+- Recall for high_risk: 0.73
 ![Combination Sampling with SMOTEENN](/Images/SMOTEENN_classificationReport.PNG)
 
 #### BalancedRandomForestClassifier Ensemble Learning
-Balanced accuracy score: 0.8735251380412671
-Precision for high_risk: 0.03
-Recall for high_risk: 0.70
+- Balanced accuracy score: 0.8735251380412671
+- Precision for high_risk: 0.03
+- Recall for high_risk: 0.70
 ![Ensemble Learning with BalancedRandomForestClassifier](/Images/BalancedRandomForestClassifier_classificationReport.PNG)
 
 #### EasyEnsembleClassifier Ensemble Learning
-Balanced accuracy score: 0.9154459266085636
-Precision for high_risk: 0.05
-Recall for high_risk: 0.93
+- Balanced accuracy score: 0.9154459266085636
+- Precision for high_risk: 0.05
+- Recall for high_risk: 0.93
 ![Ensemble Learning with EasyEnsembleClassifier](/Images/EasyEnsembleClassifier_classificationReport.PNG)
 
 
